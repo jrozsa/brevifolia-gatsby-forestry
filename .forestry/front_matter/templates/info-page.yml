@@ -12,6 +12,12 @@ fields:
       format: html-blocks
   label: description
   description: Enter description here
+- name: some-text
+  type: text
+  config:
+    required: false
+  label: Some-text
+  description: Some random text
 - name: cta
   type: textarea
   default: ''
