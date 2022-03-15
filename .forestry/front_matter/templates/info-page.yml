@@ -49,5 +49,14 @@ fields:
     color_format: Hex
   description: Enter info page background color
   default: "#B1BCBC"
+- name: pick_date
+  type: datetime
+  label: Pick Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 pages:
 - content/data/info.json
